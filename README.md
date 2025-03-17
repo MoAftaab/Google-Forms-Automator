@@ -98,12 +98,25 @@ This tool includes special handling for date fields, which can be notoriously di
 3. Multiple date format attempts (dd-mm-yyyy, yyyy-mm-dd, etc.)
 4. Calendar picker interaction when available
 
-### Flexibility
-1.Finds the installed Chrome browser on their system
-2.Launch it with special parameters to use a dedicated profile directory
-3.Control that browser instance to navigate to the Google Form
-4.Fill in the fields automatically
-5.Either submit the form or let the user review it before submission
+# Google Form Automation Script
+
+## Features & Workflow
+
+1. **Find Installed Chrome**  
+   - Detects and locates the installed Chrome browser on the system.
+
+2. **Launch with Custom Profile**  
+   - Starts Chrome with a dedicated profile directory for session persistence.
+
+3. **Automate Navigation**  
+   - Controls the browser instance to open the specified Google Form.
+
+4. **Auto-Fill Form Fields**  
+   - Populates form fields automatically with predefined data.
+
+5. **Submission or Review Mode**  
+   - Option to either submit the form directly or allow the user to review and edit before submission.
+
 
 ### Field-to-Data Matching
 
