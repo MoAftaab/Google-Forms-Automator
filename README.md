@@ -98,6 +98,13 @@ This tool includes special handling for date fields, which can be notoriously di
 3. Multiple date format attempts (dd-mm-yyyy, yyyy-mm-dd, etc.)
 4. Calendar picker interaction when available
 
+### Flexibility
+1.Finds the installed Chrome browser on their system
+2.Launch it with special parameters to use a dedicated profile directory
+3.Control that browser instance to navigate to the Google Form
+4.Fill in the fields automatically
+5.Either submit the form or let the user review it before submission
+
 ### Field-to-Data Matching
 
 The tool uses a sophisticated algorithm to match form field questions to your personal data, supporting variations in how questions might be phrased.
