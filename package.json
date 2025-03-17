@@ -1,0 +1,24 @@
+{
+  "name": "googleformsautomator",
+  "version": "1.0.0",
+  "description": "Automates filling out Google Forms by automatically detecting and filling form fields with predefined information",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "prepare-chrome": "node prepareChrome.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-forms",
+    "automation",
+    "puppeteer",
+    "form-filler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.3.4"
+  }
+}
